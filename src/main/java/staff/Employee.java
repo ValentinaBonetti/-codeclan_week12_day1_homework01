@@ -25,6 +25,9 @@ public abstract class Employee {
     }
 
     public void raiseSalary(Double salaryRaise){
+        if (salaryRaise < 0) {
+            throw new IllegalArgumentException("Salary raise cannot be negative.");
+        }
         this.salary += salaryRaise;
     }
 
