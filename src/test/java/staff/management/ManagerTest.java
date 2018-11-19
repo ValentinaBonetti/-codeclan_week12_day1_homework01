@@ -39,6 +39,13 @@ public class ManagerTest {
     }
 
     @Test
+    public void nameSetterCannotBeNull() throws IllegalArgumentException{
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage("Name cannot be null");
+        manager.setName(null);
+    }
+
+    @Test
     public void canPayBonus(){
         assertEquals(503.45, manager.payBonus(),0.01);
     }

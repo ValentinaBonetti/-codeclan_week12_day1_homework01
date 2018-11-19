@@ -16,6 +16,11 @@ public abstract class Employee {
         return name;
     }
 
+    public void setName(String name) {
+        if (name == null) { throw new IllegalArgumentException("Name cannot be null");}
+        this.name = name;
+    }
+
     public String getNI() {
         return NI;
     }
