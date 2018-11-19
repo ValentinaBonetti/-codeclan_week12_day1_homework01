@@ -352,16 +352,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeveloperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DirectorTest.canPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdminTool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="staff.techStaff.*" />
+          <option name="PATTERN" value="staff.management.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="staff.techStaff" />
-      <option name="MAIN_CLASS_NAME" value="staff.techStaff.DeveloperTest" />
+      <option name="PACKAGE_NAME" value="staff.management" />
+      <option name="MAIN_CLASS_NAME" value="staff.management.DirectorTest" />
+      <option name="METHOD_NAME" value="canPayBonus" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -399,19 +401,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeveloperTest" />
       <item itemvalue="JUnit.DatabaseAdminTest" />
       <item itemvalue="JUnit.All in AdminTool" />
       <item itemvalue="JUnit.ManagerTest.salaryRaiseCannotBeNegative" />
       <item itemvalue="JUnit.ManagerTest.nameSetterCannotBeNull" />
+      <item itemvalue="JUnit.DirectorTest.canPayBonus" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in AdminTool" />
+        <item itemvalue="JUnit.DirectorTest.canPayBonus" />
         <item itemvalue="JUnit.ManagerTest.nameSetterCannotBeNull" />
         <item itemvalue="JUnit.ManagerTest.salaryRaiseCannotBeNegative" />
         <item itemvalue="JUnit.DatabaseAdminTest" />
-        <item itemvalue="JUnit.DeveloperTest" />
       </list>
     </recent_temporary>
   </component>
